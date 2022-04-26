@@ -1,0 +1,97 @@
+@font-face {
+    font-family: "Roboto";
+    src: url(../fonts/latoregular.woff2) format("woff2"),
+        url(../fonts/latoregular.woff) format("woff");
+    font-style: normal;
+    font-weight: 400;
+}
+
+@font-face {
+    font-family: "Roboto";
+    src: url(../fonts/latoblack.woff2) format("woff2"),
+        url(../fonts/latoblack.woff) format("woff");
+    font-style: normal;
+    font-weight: 900;
+}
+
+@font-face {
+    font-family: "Roboto";
+    src: url(../fonts/latobold.woff2) format("woff2"),
+        url(../fonts/latobold.woff) format("woff");
+    font-style: normal;
+    font-weight: 700;
+}
+
+@font-face {
+    font-family: "Roboto";
+    src: url(../fonts/latoitalic.woff2) format("woff2"),
+        url(../fonts/latoitalic.woff) format("woff");
+    font-style: italic;
+    font-weight: 400;
+}
+
+@font-face {
+    font-family: "Roboto";
+    src: url(../fonts/latolight.woff2) format("woff2"),
+        url(../fonts/latolight.woff) format("woff");
+    font-style: normal;
+    font-weight: 300;
+}
+
+body {
+    font-family: "Roboto", sans-serif;
+    font-style: normal;
+    font-weight: normal;
+}
+
+.container {
+    width: 71%;
+    margin: 0 auto;
+
+    @include mobile {
+        width: 90%;
+    }
+}
+
+.visually-hidden {
+    position: absolute;
+    white-space: nowrap;
+    width: 1px;
+    height: 1px;
+    overflow: hidden;
+    border: 0;
+    padding: 0;
+    clip: rect(0 0 0 0);
+    clip-path: inset(50%);
+    margin: -1px;
+}
+
+.effects {
+    transition: 0.3s;
+
+    &:focus {
+        cursor: pointer;
+    }
+
+    &:hover {
+        transform: scale(1.1);
+    }
+
+    &:active {
+        opacity: 0.7;
+        box-shadow: 0 1px 0 rgba(255, 255, 255, 0.5) inset,
+            0 -1px 0 rgba(255, 255, 255, 0.1) inset;
+        box-shadow: 0 1px 0 rgba(255, 255, 255, 0.5) inset,
+            0 -1px 0 rgba(255, 255, 255, 0.1);
+    }
+}
+
+.wrp {
+    display: flex;
+    justify-content: space-between;
+
+    @include mobile {
+        @include flex-center;
+        flex-direction: column;
+    }
+}

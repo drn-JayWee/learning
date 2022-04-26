@@ -1,0 +1,61 @@
+.header {
+    background: $black;
+    display: flex;
+    flex-wrap: wrap;
+
+    &__ll {
+        display: flex;
+    }
+
+    &__wrp {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        flex-wrap: wrap;
+        min-height: 75px;
+
+        @include mobile {
+            width: 100%;
+        }
+    }
+
+    &__logo {
+        margin: 0 41px 0 0;
+    }
+
+    &__list {
+        display: flex;
+    }
+
+    &__title {
+        color: #F16D7F;
+        margin-left: 32px;
+
+    }
+
+    &__button {
+        border: none;
+        background-color: transparent;
+
+        &:hover {
+            cursor: pointer;
+        }
+    }
+
+    &__link {
+        margin: 0 0 0 34px;
+    }
+
+    &__icon {
+        fill: white;
+
+        &:hover {
+            border-radius: 10px;
+            transform: scale(1.5);
+        }
+
+        &:hover {
+            cursor: pointer;
+        }
+    }
+}

@@ -1,0 +1,78 @@
+.sales {
+    margin-top: 65px;
+
+    &__list {
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: space-between;
+    }
+
+    &__item {
+        width: 31%;
+        min-height: 260px;
+        padding: 20px;
+        display: flex;
+        box-sizing: border-box;
+        background: transparent;
+        align-items: center;
+        flex-direction: column;
+        justify-content: center;
+        background-color: #4f4745;
+    }
+
+    &__item--woomen {
+        background-image: url(../img/sales-img1.jpg);
+        background-position: center;
+        background-size: cover;
+
+        &:hover {
+            outline: 1px solid rgba(0, 0, 0, 0.658);
+            outline-offset: 5px;
+        }
+
+    }
+
+    &__item--men {
+        background-image: url(../img/sales-img2.jpg);
+        background-position: center;
+        background-size: cover;
+
+        &:hover {
+            outline: 1px solid rgba(0, 0, 0, 0.658);
+            outline-offset: 5px
+        }
+    }
+
+    &__item--kids {
+        background-image: url(../img/sales-img3.jpg);
+        background-position: center;
+        background-size: cover;
+
+        &:hover {
+            outline: 1px solid rgba(0, 0, 0, 0.658);
+            outline-offset: 5px
+        }
+    }
+
+    &__item--shoes {
+        width: 100%;
+        background-image: url(../img/sales-img4.jpg);
+        background-position: center;
+        background-size: cover;
+        margin-top: 30px;
+
+        &:hover {
+            outline: 1px solid rgba(0, 0, 0, 0.658);
+            outline-offset: 5px
+        }
+    }
+
+    &__text {
+        @include font(16px, 19px, 400);
+        color: white;
+    }
+
+    &__subtitle {
+        color: $dark-pink;
+    }
+}

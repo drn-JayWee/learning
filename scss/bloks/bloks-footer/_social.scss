@@ -1,0 +1,36 @@
+.socials {
+    background-color: #222224;
+    background-size: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    height: 80px;
+
+    &__text {
+        font-size: 16px;
+        color: #FBFBFB;
+    }
+
+    &__list {
+        display: flex;
+        justify-content: space-around;
+    }
+
+
+    &__item {
+        display: block;
+        box-sizing: border-box;
+        margin: 0 5px;
+        outline: 1px solid black;
+        height: 32px;
+        width: 32px;
+        background: white;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+
+        &:hover {
+            background: $dark-pink;
+        }
+    }
+}

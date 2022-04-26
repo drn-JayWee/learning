@@ -1,0 +1,27 @@
+@import './reset';
+@import './variables';
+@import './mixin';
+@import './general';
+
+// ==== HEADER -------------------------------
+
+@import './bloks/block-header/header';
+@import './bloks/block-header/nav-sub-item';
+
+
+// ==== INDEX --------------------------------
+
+@import './bloks/block-index/brand';
+@import './bloks/block-index/sales';
+@import './bloks/block-index/catalog';
+@import './bloks/block-index/button-main';
+
+// ==== CART ---------------------------------
+
+// ==== REGISTRATION -------------------------
+
+// ==== FOOTER -------------------------------
+
+@import './bloks/bloks-footer/footer';
+@import './bloks/bloks-footer/infoblock';
+@import './bloks/bloks-footer/social';

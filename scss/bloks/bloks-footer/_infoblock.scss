@@ -1,0 +1,79 @@
+.infoblock {
+    background: rgba(244, 244, 244, 0.7);
+    background-image: url(../img/regist-info.jpg);
+    background-repeat: no-repeat;
+    background-size: 100%;
+    height: 450px;
+
+    &__box {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        padding: 100px 0 100px 0;
+    }
+
+    &__icon {
+        display: flex;
+        justify-content: center;
+    }
+
+    &__text {
+        text-align: center;
+        font-size: 20px;
+        width: 360px;
+        padding-top: 30px;
+    }
+
+    &__subtitle {
+        width: 560px;
+        font-size: 24px;
+        line-height: 29px;
+        text-align: center;
+    }
+
+    &__subtitle-text {
+        font-weight: 700;
+    }
+}
+
+
+.block-button {
+    margin-top: 30px;
+    display: flex;
+    justify-content: center;
+}
+
+.input__email-text {
+
+    width: 260px;
+    background: #E1E1E1;
+    -webkit-border-top-left-radius: 50px;
+    -webkit-border-bottom-left-radius: 50px;
+    -moz-border-radius-topleft: 50px;
+    -moz-border-radius-bottomleft: 50px;
+    border-top-left-radius: 50px;
+    border-bottom-left-radius: 50px;
+    padding: 10px;
+}
+
+/*=======  BUTTON FOOTER  =======*/
+
+.block__button-bkg {
+    height: 56px;
+    width: 100px;
+    background-color: $dark-pink;
+    -webkit-border-top-right-radius: 50px;
+    -webkit-border-bottom-right-radius: 50px;
+    -moz-border-radius-topright: 50px;
+    -moz-border-radius-bottomright: 50px;
+    border-top-right-radius: 50px;
+    border-bottom-right-radius: 50px;
+
+    &:hover {
+        cursor: pointer;
+    }
+}
+
+.bclock__button-text {
+    color: white;
+}
