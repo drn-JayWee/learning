@@ -1,0 +1,150 @@
+.headline {
+    height: 150px;
+    background: #F8F3F4;
+    display: flex;
+    justify-content: space-between;
+    padding: 60px;
+}
+
+.headline__h {
+    font-weight: 400;
+    font-size: 24px;
+    line-height: 29px;
+    color: #F16D7F;
+}
+
+.headline__text {
+    font-size: 14px;
+    line-height: 17px;
+    color: #636363;
+}
+
+.headline__color {
+    color: #EF5B70;
+}
+
+.features__border {
+    background: #FFFFFF;
+    box-shadow: black;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    border: 1px solid gray;
+    padding: 65px 0 65px 0;
+    margin-bottom: 130px;
+
+}
+
+.features__title {
+    font-weight: 300;
+    font-size: 14px;
+    line-height: 17px;
+    text-align: center;
+    color: #F16D7F;
+    /* margin-top: 64px; */
+}
+
+.features__hr-up {
+    color: #F16D7F;
+    width: 63px;
+    margin: 12px;
+}
+
+.features__subtitle {
+    font-weight: 300;
+    font-size: 18px;
+    line-height: 22px;
+    text-align: center;
+    color: #4D4D4D;
+    margin-bottom: 50px;
+}
+
+.features__text {
+    font-weight: 300;
+    font-size: 14px;
+    line-height: 17px;
+    text-align: center;
+    color: #5E5E5E;
+    margin-bottom: 32px;
+}
+
+.features__price {
+    font-weight: 300;
+    font-size: 24px;
+    line-height: 29px;
+    text-align: center;
+    color: #EF5B70;
+    margin-bottom: 65px;
+}
+
+.features__hr-down {
+    border: 1px solid #EAEAEA;
+    width: 640px;
+    margin-bottom: 65px;
+}
+
+.features__items {
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 17px;
+    color: #6F6E6E;
+    margin-bottom: 50px;
+    margin-right: 42px;
+}
+
+.features__list {
+    text-align: center;
+    display: flex;
+}
+
+.features__items::after {
+    content: '>';
+
+}
+
+.features__btn {
+    background: #FFFFFF;
+    border: 1px solid #EF5B70;
+}
+
+.features__btn-text {
+    color: #EF5B70;
+    padding: 15px 55px;
+}
+
+.pdr-cart__list {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 130px;
+}
+
+.pdr-cart__items {
+    background: #F8F8F8;
+    width: 360px;
+    margin: 0 30px 25px 0;
+}
+
+.pdr-cart__title {
+    font-weight: 400;
+    font-size: 13px;
+    line-height: 16px;
+    color: #000000;
+    margin-left: 16px;
+}
+
+.pdr-cart__text {
+    font-weight: 300;
+    font-size: 14px;
+    line-height: 17px;
+    color: #5D5D5D;
+    margin: 12px 28px 18px 16px;
+}
+
+.pdr-cart__price {
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 19px;
+    color: #F16D7F;
+    margin: 0 0 20px 16px;
+}
